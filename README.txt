@@ -1,24 +1,10 @@
+PUBBLICAZIONE SU GITHUB
 
-COME PUBBLICARE IL SITO SU GITHUB
+1. Crea repository: angelobrunorizzo-site
+2. Carica index.html, style.css e la cartella images
+3. Attiva GitHub Pages
 
-1. Crea un repository chiamato:
-angelobrunorizzo-site
-
-2. Carica dentro:
-index.html
-style.css
-cartella images
-
-3. Attiva GitHub Pages nelle impostazioni del repository.
-
-4. Il dominio www.angelobrunorizzo.com già punta a GitHub Pages.
-
-COME AGGIUNGERE FOTO
-
-1. Inserisci la foto nella cartella images
-2. Duplica questo blocco nel file index.html:
-
-<div class="photo">
-<img src="images/nomefoto.jpg">
-<p>Titolo foto</p>
-</div>
+NOTE
+- La cartella images è inclusa nello ZIP.
+- Puoi sostituire i file foto1.jpg, foto2.jpg e foto3.jpg con le tue immagini.
+- Se cambi i nomi dei file, aggiorna anche i percorsi nel file index.html.
