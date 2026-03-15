@@ -1,168 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Angelo Bruno RIZZO — Photography Portfolio</title>
-  <meta name="description" content="Portfolio fotografico minimal di Angelo Bruno RIZZO: mare, porti, luce, Mediterraneo." />
-  <meta name="theme-color" content="#000000" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angelo Bruno RIZZO</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div>
-        <div class="brand">ANGELO BRUNO RIZZO</div>
-        <div class="subtitle">Photography Portfolio</div>
-      </div>
-      <nav class="nav">
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <main>
-    <section class="hero container">
-      <div class="hero-grid">
-        <div>
-          <div class="eyebrow">Brindisi · Italia</div>
-          <h1>Fotografia essenziale.<span>Mare, luce, silenzio, presenza.</span></h1>
-          <p>
-            Il portfolio di Angelo Bruno RIZZO raccoglie immagini ispirate al Mediterraneo,
-            ai porti, alla navigazione e ai dettagli del paesaggio marittimo. Un linguaggio visivo
-            sobrio, pulito e contemplativo, costruito intorno alla luce naturale.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-light" href="#portfolio">Enter Portfolio</a>
-            <a class="button button-dark" href="#contact">Contact</a>
-          </div>
-          <div class="counter-box">
-            <span>Accessi al sito</span>
-            <strong id="visit-counter">—</strong>
-          </div>
-        </div>
-        <div class="statement">
-          <div class="eyebrow">Statement</div>
-          <p>
-            Un approccio minimale, ispirato ai portfolio fotografici editoriali: grandi spazi,
-            ritmo visivo lento e centralità assoluta dell'immagine.
-          </p>
-        </div>
-      </div>
-    </section>
+<header>
+<h1>ANGELO BRUNO RIZZO</h1>
+<p class="quote">“Il mare insegna misura, profondità e prospettiva.”</p>
+<nav>
+<a href="#profilo">Profilo</a>
+<a href="#interessi">Interessi</a>
+<a href="#fotografia">Fotografia</a>
+<a href="#contatti">Contatti</a>
+</nav>
+</header>
 
-    <section class="container hero-image-section">
-      <div class="hero-image placeholder-featured">
-        <div class="placeholder-label">Inserisci qui una tua foto orizzontale principale</div>
-      </div>
-    </section>
+<section id="profilo">
+<h2>Profilo</h2>
+<p>
+Angelo Bruno RIZZO è nato a Milano il 26 novembre 1966. Laureato in Economia e Commercio
+(vecchio ordinamento) con tesi in Diritto del Lavoro, lavora nel settore bancario dal 1997.
+</p>
 
-    <section id="portfolio" class="container section">
-      <div class="section-head">
-        <div>
-          <div class="eyebrow">Selected Works</div>
-          <h2>Portfolio</h2>
-        </div>
-        <p>
-          Una selezione di lavori costruita per dare massimo risalto alle fotografie.
-          Sostituisci i riquadri con i tuoi scatti reali rinominando i file dentro la cartella images.
-        </p>
-      </div>
+<p>
+Appassionato di mare e navigazione, è subacqueo con brevetto Advanced Diver e possiede
+patente nautica vela e motore oltre le 12 miglia.
+</p>
 
-      <div class="gallery-grid">
-        <article class="work-card">
-          <img src="images/foto1.jpg" alt="Alba sul porto" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="placeholder-card" style="display:none;">foto1.jpg</div>
-          <div class="work-meta"><div><div class="meta-cat">Mare</div><h3>Alba sul porto</h3></div><div class="meta-year">2026</div></div>
-        </article>
+<p>
+I suoi interessi principali comprendono Marina Militare, geopolitica, fotografia,
+corsa e lettura. Questo sito nasce come spazio personale dove raccogliere immagini,
+riflessioni e percorsi fotografici.
+</p>
+</section>
 
-        <article class="work-card">
-          <img src="images/foto2.jpg" alt="Linee di coperta" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="placeholder-card" style="display:none;">foto2.jpg</div>
-          <div class="work-meta"><div><div class="meta-cat">Nautica</div><h3>Linee di coperta</h3></div><div class="meta-year">2026</div></div>
-        </article>
+<section id="interessi">
+<h2>Interessi</h2>
 
-        <article class="work-card">
-          <img src="images/foto3.jpg" alt="Blu profondo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="placeholder-card" style="display:none;">foto3.jpg</div>
-          <div class="work-meta"><div><div class="meta-cat">Mediterraneo</div><h3>Blu profondo</h3></div><div class="meta-year">2026</div></div>
-        </article>
+<div class="grid">
+<div class="card">Marina Militare</div>
+<div class="card">Geopolitica</div>
+<div class="card">Fotografia</div>
+<div class="card">Corsa</div>
+<div class="card">Lettura</div>
+<div class="card">Mare</div>
+</div>
 
-        <article class="work-card">
-          <img src="images/foto4.jpg" alt="Corde e metallo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="placeholder-card" style="display:none;">foto4.jpg</div>
-          <div class="work-meta"><div><div class="meta-cat">Dettaglio</div><h3>Corde e metallo</h3></div><div class="meta-year">2025</div></div>
-        </article>
+</section>
 
-        <article class="work-card">
-          <img src="images/foto5.jpg" alt="Silenzio del molo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="placeholder-card" style="display:none;">foto5.jpg</div>
-          <div class="work-meta"><div><div class="meta-cat">Porti</div><h3>Silenzio del molo</h3></div><div class="meta-year">2025</div></div>
-        </article>
+<section id="fotografia">
+<h2>Fotografia</h2>
+<p>Galleria in stile mostra fotografica. Per aggiungere foto basta inserirle nella cartella <strong>images</strong> e aggiungere la riga corrispondente nel file index.html.</p>
 
-        <article class="work-card">
-          <img src="images/foto6.jpg" alt="Luce di traverso" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-          <div class="placeholder-card" style="display:none;">foto6.jpg</div>
-          <div class="work-meta"><div><div class="meta-cat">Paesaggio</div><h3>Luce di traverso</h3></div><div class="meta-year">2025</div></div>
-        </article>
-      </div>
-    </section>
+<div class="gallery">
 
-    <section id="about" class="container section about-grid">
-      <div class="panel">
-        <div class="eyebrow">About</div>
-        <h2>Angelo Bruno RIZZO</h2>
-        <p>
-          Fotografo italiano con base a Brindisi, sviluppa un linguaggio visivo legato al mare,
-          ai porti e alla dimensione silenziosa del paesaggio marittimo. Le sue immagini cercano
-          equilibrio, geometria, atmosfera e autenticità.
-        </p>
-        <p>
-          Il sito è pensato come portfolio d'autore: pulito, rigoroso e concentrato sull'essenziale,
-          con un'estetica ispirata ai layout fotografici editoriali di fascia alta.
-        </p>
-      </div>
-      <div class="panel">
-        <div class="eyebrow">Projects</div>
-        <ul class="project-list">
-          <li><span>Mediterranean Ports</span><span>Series</span></li>
-          <li><span>Light on Water</span><span>Series</span></li>
-          <li><span>Silent Harbours</span><span>Series</span></li>
-          <li><span>Structures of Navigation</span><span>Series</span></li>
-        </ul>
-      </div>
-    </section>
+<div class="photo">
+<img src="images/foto1.jpg">
+<p>Foto 1</p>
+</div>
 
-    <section id="contact" class="container section contact-grid">
-      <div>
-        <div class="eyebrow">Contact</div>
-        <h2>Collaborazioni e richieste</h2>
-        <p>Per progetti fotografici, editoriali, esposizioni, stampe o collaborazioni.</p>
-      </div>
-      <div class="contact-cards">
-        <div class="contact-card">
-          <div class="meta-cat">Email</div>
-          <div class="contact-value"><a href="mailto:angelobrunorizzo@gmail.com">angelobrunorizzo@gmail.com</a></div>
-        </div>
-        <div class="contact-card">
-          <div class="meta-cat">Location</div>
-          <div class="contact-value">Brindisi, Italia</div>
-        </div>
-        <div class="contact-card">
-          <div class="meta-cat">Instagram</div>
-          <div class="contact-value">@angelobrunorizzo</div>
-        </div>
-      </div>
-    </section>
-  </main>
+<div class="photo">
+<img src="images/foto2.jpg">
+<p>Foto 2</p>
+</div>
 
-  <footer class="site-footer">© 2026 Angelo Bruno RIZZO — Photography Portfolio</footer>
+<div class="photo">
+<img src="images/foto3.jpg">
+<p>Foto 3</p>
+</div>
 
-  <script src="script.js"></script>
+</div>
+</section>
+
+<section id="contatti">
+<h2>Contatti</h2>
+<p>Email: <a href="mailto:angelobrunorizzo@gmail.com">angelobrunorizzo@gmail.com</a></p>
+</section>
+
+<footer>
+<p>© Angelo Bruno RIZZO</p>
+</footer>
+
 </body>
 </html>
