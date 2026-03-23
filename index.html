@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Angelo Bruno RIZZO</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angelo Bruno RIZZO</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>ANGELO BRUNO RIZZO</h1>
-  <p class="quote">“Il mare insegna misura, profondità e prospettiva.”</p>
-  <nav>
-    <a href="#profilo">Profilo</a>
-    <a href="#interessi">Interessi</a>
-    <a href="#fotografia">Fotografia</a>
-    <a href="#contatti">Contatti</a>
-  </nav>
-</header>
-
-<section id="profilo">
-  <h2>Profilo</h2>
-  <p>Angelo Bruno RIZZO è nato a Milano il 26 novembre 1966. Laureato in Economia e Commercio (vecchio ordinamento) con tesi in Diritto del Lavoro, lavora nel settore bancario dal 1997.</p>
-  <p>Appassionato di mare e navigazione, è subacqueo Advanced Diver e possiede patente nautica vela e motore oltre le 12 miglia.</p>
-  <p>Tra i suoi principali interessi: Marina Militare, geopolitica, fotografia, corsa e lettura. Questo sito raccoglie immagini e percorsi fotografici in uno spazio essenziale, con layout nero pensato per valorizzare la fotografia.</p>
-</section>
-
-<section id="interessi">
-  <h2>Interessi</h2>
-  <div class="grid">
-    <div class="card">Marina Militare</div>
-    <div class="card">Geopolitica</div>
-    <div class="card">Fotografia</div>
-    <div class="card">Corsa</div>
-    <div class="card">Lettura</div>
-    <div class="card">Mare</div>
-  </div>
-</section>
-
-<section id="fotografia">
-  <h2>Fotografia</h2>
-  <p class="intro">La cartella <strong>images</strong> è inclusa nello ZIP. Sostituisci i file <strong>foto1.jpg</strong>, <strong>foto2.jpg</strong> e <strong>foto3.jpg</strong> con le tue fotografie mantenendo gli stessi nomi, oppure modifica i nomi nel file index.html.</p>
-
-  <div class="gallery">
-    <div class="photo">
-      <img src="images/foto1.jpg" alt="Foto 1">
-      <p>Mare</p>
+  <header>
+    <div class="topbar">
+      <div class="lang-switch" aria-label="Language switcher">
+        <button id="btn-it" class="lang-btn active" type="button">IT</button>
+        <button id="btn-en" class="lang-btn" type="button">ENG</button>
+      </div>
     </div>
 
-    <div class="photo">
-      <img src="images/foto2.jpg" alt="Foto 2">
-      <p>Orizzonte</p>
+    <h1 data-i18n="site_title">ANGELO BRUNO RIZZO</h1>
+    <p class="quote" data-i18n="quote">“Il mare insegna misura, profondità e prospettiva.”</p>
+
+    <nav>
+      <a href="#profilo" data-i18n="nav_profile">Profilo</a>
+      <a href="#interessi" data-i18n="nav_interests">Interessi</a>
+      <a href="#fotografia" data-i18n="nav_photography">Fotografia</a>
+      <a href="#contatti" data-i18n="nav_contacts">Contatti</a>
+    </nav>
+  </header>
+
+  <section id="profilo">
+    <h2 data-i18n="profile_title">Profilo</h2>
+    <p data-i18n="profile_p1">Angelo Bruno RIZZO è nato a Milano il 26 novembre 1966. Laureato in Economia e Commercio (vecchio ordinamento) con tesi in Diritto del Lavoro, lavora nel settore bancario dal 1997.</p>
+    <p data-i18n="profile_p2">Appassionato di mare e navigazione, è subacqueo Advanced Diver e possiede patente nautica vela e motore oltre le 12 miglia.</p>
+    <p data-i18n="profile_p3">Tra i suoi principali interessi: Marina Militare, geopolitica, fotografia, corsa e lettura. Questo sito raccoglie immagini e percorsi fotografici in uno spazio essenziale, con layout nero pensato per valorizzare la fotografia.</p>
+  </section>
+
+  <section id="interessi">
+    <h2 data-i18n="interests_title">Interessi</h2>
+    <div class="grid">
+      <div class="card" data-i18n="interest_1">Marina Militare</div>
+      <div class="card" data-i18n="interest_2">Geopolitica</div>
+      <div class="card" data-i18n="interest_3">Fotografia</div>
+      <div class="card" data-i18n="interest_4">Corsa</div>
+      <div class="card" data-i18n="interest_5">Lettura</div>
+      <div class="card" data-i18n="interest_6">Mare</div>
     </div>
+  </section>
 
-    <div class="photo">
-      <img src="images/foto3.jpg" alt="Foto 3">
-      <p>Paesaggio</p>
+  <section id="fotografia">
+    <h2 data-i18n="photo_title">Fotografia</h2>
+    <p class="intro" data-i18n="photo_intro">La cartella <strong>images</strong> è inclusa nello ZIP. Sostituisci i file <strong>foto1.jpg</strong>, <strong>foto2.jpg</strong> e <strong>foto3.jpg</strong> con le tue fotografie mantenendo gli stessi nomi, oppure modifica i nomi nel file index.html.</p>
+
+    <div class="gallery">
+      <div class="photo">
+        <img src="images/foto1.jpg" alt="Foto 1">
+        <p data-i18n="caption_1">Mare</p>
+      </div>
+      <div class="photo">
+        <img src="images/foto2.jpg" alt="Foto 2">
+        <p data-i18n="caption_2">Orizzonte</p>
+      </div>
+      <div class="photo">
+        <img src="images/foto3.jpg" alt="Foto 3">
+        <p data-i18n="caption_3">Paesaggio</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="contatti">
-  <h2>Contatti</h2>
-  <p>Email: <a href="mailto:angelobrunorizzo@gmail.com">angelobrunorizzo@gmail.com</a></p>
-</section>
+  <section id="contatti">
+    <h2 data-i18n="contacts_title">Contatti</h2>
+    <p><span data-i18n="email_label">Email:</span> <a href="mailto:angelobrunorizzo@gmail.com">angelobrunorizzo@gmail.com</a></p>
+  </section>
 
-<footer>
-  <p>© Angelo Bruno RIZZO</p>
-</footer>
+  <footer>
+    <p>© Angelo Bruno RIZZO</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
