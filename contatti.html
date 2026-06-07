@@ -7,32 +7,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header class="site-header">
-  <div class="logo">ANGELO BRUNO RIZZO</div>
+  <div class="logo" data-i18n="site_name">ANGELO BRUNO RIZZO</div>
   <nav class="main-nav">
-    <a href="index.html">HOME</a>
-    <a href="portfolio.html">PORTFOLIO</a>
-    <a href="about.html">ABOUT</a>
-    <a href="contatti.html" class="active">CONTATTI</a>
+    <a href="index.html" data-i18n="nav_home">HOME</a>
+    <a href="portfolio.html" data-i18n="nav_portfolio">PORTFOLIO</a>
+    <a href="about.html" data-i18n="nav_about">ABOUT</a>
+    <a href="contatti.html" data-i18n="nav_contacts">CONTATTI</a>
   </nav>
+  <div class="language-switcher">
+    <button data-lang="it" class="active">IT</button>
+    <button data-lang="en">EN</button>
+    <button data-lang="ru">RU</button>
+    <button data-lang="el">EL</button>
+    <button data-lang="ar">AR</button>
+    <button data-lang="ja">JA</button>
+    <button data-lang="zh">ZH</button>
+  </div>
 </header>
-
 <main class="page contact-page">
-  <h1>Contatti</h1>
-  <p class="page-subtitle">Per informazioni, collaborazioni o richieste fotografiche.</p>
-
+  <h1 data-i18n="contacts_title">Contatti</h1>
+  <p class="page-subtitle" data-i18n="contacts_subtitle">Per informazioni, collaborazioni o richieste fotografiche.</p>
   <div class="contact-box">
     <p><strong>Email:</strong> inserisci-la-tua-email@email.com</p>
     <p><strong>Instagram:</strong> @angelobrunorizzo</p>
-    <p><strong>Località:</strong> Brindisi, Italia</p>
+    <p><strong data-i18n="location_label">Località:</strong> Brindisi, Italia</p>
   </div>
-</main>
-
-<footer>
-  <p>© 2026 Angelo Bruno Rizzo</p>
-</footer>
-
+</main><footer><p>© 2026 Angelo Bruno Rizzo</p></footer>
 <script src="script.js"></script>
 </body>
 </html>

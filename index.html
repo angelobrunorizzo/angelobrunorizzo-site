@@ -7,58 +7,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header class="site-header">
-  <div class="logo">ANGELO BRUNO RIZZO</div>
+  <div class="logo" data-i18n="site_name">ANGELO BRUNO RIZZO</div>
   <nav class="main-nav">
-    <a href="index.html" class="active">HOME</a>
-    <a href="portfolio.html">PORTFOLIO</a>
-    <a href="about.html">ABOUT</a>
-    <a href="contatti.html">CONTATTI</a>
+    <a href="index.html" data-i18n="nav_home">HOME</a>
+    <a href="portfolio.html" data-i18n="nav_portfolio">PORTFOLIO</a>
+    <a href="about.html" data-i18n="nav_about">ABOUT</a>
+    <a href="contatti.html" data-i18n="nav_contacts">CONTATTI</a>
   </nav>
+  <div class="language-switcher">
+    <button data-lang="it" class="active">IT</button>
+    <button data-lang="en">EN</button>
+    <button data-lang="ru">RU</button>
+    <button data-lang="el">EL</button>
+    <button data-lang="ar">AR</button>
+    <button data-lang="ja">JA</button>
+    <button data-lang="zh">ZH</button>
+  </div>
 </header>
-
 <main>
   <section class="hero">
     <video autoplay muted loop playsinline class="hero-video">
       <source src="video/home.mp4" type="video/mp4">
-      Il tuo browser non supporta il video.
     </video>
     <div class="hero-overlay">
-      <h1>Photography, Sea & Memory</h1>
-      <p>Fotografia • Mare • Viaggio • Silenzio</p>
+      <h1 data-i18n="hero_title">Photography, Sea & Memory</h1>
+      <p data-i18n="hero_subtitle">Fotografia • Mare • Viaggio • Silenzio</p>
     </div>
   </section>
-
   <section class="intro">
-    <h2>Angelo Bruno Rizzo</h2>
-    <p>
-      Uno sguardo personale sul mare, sui luoghi, sulla memoria e sulle storie
-      che la fotografia riesce a trattenere prima che il tempo le porti via.
-    </p>
+    <h2 data-i18n="intro_title">Angelo Bruno Rizzo</h2>
+    <p data-i18n="intro_text">Uno sguardo personale sul mare, sui luoghi, sulla memoria e sulle storie che la fotografia riesce a trattenere prima che il tempo le porti via.</p>
   </section>
-
   <section class="home-grid">
-    <a href="portfolio.html" class="home-card">
-      <img src="images/foto1.jpg" alt="Portfolio fotografico">
-      <h3>Portfolio</h3>
-    </a>
-    <a href="about.html" class="home-card">
-      <img src="images/foto2.jpg" alt="Biografia">
-      <h3>About</h3>
-    </a>
-    <a href="contatti.html" class="home-card">
-      <img src="images/foto3.jpg" alt="Contatti">
-      <h3>Contatti</h3>
-    </a>
+    <a href="portfolio.html" class="home-card"><img src="images/foto1.jpg" alt="Portfolio fotografico"><h3 data-i18n="card_portfolio">Portfolio</h3></a>
+    <a href="about.html" class="home-card"><img src="images/foto2.jpg" alt="Biografia"><h3 data-i18n="card_about">About</h3></a>
+    <a href="contatti.html" class="home-card"><img src="images/foto3.jpg" alt="Contatti"><h3 data-i18n="card_contacts">Contatti</h3></a>
   </section>
 </main>
-
-<footer>
-  <p>© 2026 Angelo Bruno Rizzo</p>
-  <p>All Images and Original Text © Angelo Bruno Rizzo</p>
-</footer>
-
+<footer><p>© 2026 Angelo Bruno Rizzo</p><p data-i18n="footer_rights">All Images and Original Text © Angelo Bruno Rizzo</p><p class="w3c-note">Designed with respect for W3C Web Standards</p></footer>
 <script src="script.js"></script>
 </body>
 </html>
