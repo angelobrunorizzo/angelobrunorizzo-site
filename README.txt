@@ -1,18 +1,9 @@
-VERSIONE CON PAGINE REALMENTE TRADOTTE
+VERSIONE V2
 
-Italiano nella root:
-index.html
-portfolio.html
-about.html
-contatti.html
+Correzioni:
+1. Bandierine uniformi in cerchi su tutte le pagine.
+2. Lingua memorizzata con localStorage: scelta una lingua, tutta la navigazione resta in quella lingua.
+3. Pagine realmente tradotte in cartelle separate.
 
-Altre lingue in:
-en/
-ru/
-el/
-ar/
-ja/
-zh/
-
-Le bandierine non usano JavaScript: aprono direttamente la pagina tradotta.
-Carica tutto su GitHub sostituendo i file precedenti.
+Nota:
+Se vuoi tornare all'italiano, clicca la bandiera italiana.
