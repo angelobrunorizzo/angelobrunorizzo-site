@@ -5,6 +5,11 @@ const translations = {
     "nav_portfolio": "PORTFOLIO",
     "nav_about": "ABOUT",
     "nav_contacts": "CONTATTI",
+    "page_title_home": "Angelo Bruno Rizzo | Fotografia",
+    "page_title_portfolio": "Portfolio | Angelo Bruno Rizzo",
+    "page_title_about": "About | Angelo Bruno Rizzo",
+    "page_title_contacts": "Contatti | Angelo Bruno Rizzo",
+    "video_not_supported": "Il tuo browser non supporta il video.",
     "hero_title": "Photography, Sea & Memory",
     "hero_subtitle": "Fotografia • Mare • Viaggio • Silenzio",
     "intro_title": "Angelo Bruno Rizzo",
@@ -23,7 +28,10 @@ const translations = {
     "contacts_title": "Contatti",
     "contacts_subtitle": "Per informazioni, collaborazioni o richieste fotografiche.",
     "location_label": "Località:",
-    "footer_rights": "All Images and Original Text © Angelo Bruno Rizzo"
+    "footer_rights": "Tutte le immagini e i testi originali © Angelo Bruno Rizzo",
+    "w3c_note": "Progettato nel rispetto degli standard web W3C",
+    "email_label": "Email:",
+    "instagram_label": "Instagram:"
   },
   "en": {
     "site_name": "ANGELO BRUNO RIZZO",
@@ -31,6 +39,11 @@ const translations = {
     "nav_portfolio": "PORTFOLIO",
     "nav_about": "ABOUT",
     "nav_contacts": "CONTACTS",
+    "page_title_home": "Angelo Bruno Rizzo | Photography",
+    "page_title_portfolio": "Portfolio | Angelo Bruno Rizzo",
+    "page_title_about": "About | Angelo Bruno Rizzo",
+    "page_title_contacts": "Contacts | Angelo Bruno Rizzo",
+    "video_not_supported": "Your browser does not support video.",
     "hero_title": "Photography, Sea & Memory",
     "hero_subtitle": "Photography • Sea • Travel • Silence",
     "intro_title": "Angelo Bruno Rizzo",
@@ -49,7 +62,10 @@ const translations = {
     "contacts_title": "Contacts",
     "contacts_subtitle": "For information, collaborations, or photographic requests.",
     "location_label": "Location:",
-    "footer_rights": "All Images and Original Text © Angelo Bruno Rizzo"
+    "footer_rights": "All images and original text © Angelo Bruno Rizzo",
+    "w3c_note": "Designed with respect for W3C Web Standards",
+    "email_label": "Email:",
+    "instagram_label": "Instagram:"
   },
   "ru": {
     "site_name": "АНДЖЕЛО БРУНО РИЦЦО",
@@ -57,6 +73,11 @@ const translations = {
     "nav_portfolio": "ПОРТФОЛИО",
     "nav_about": "ОБО МНЕ",
     "nav_contacts": "КОНТАКТЫ",
+    "page_title_home": "Анджело Бруно Риццо | Фотография",
+    "page_title_portfolio": "Портфолио | Анджело Бруно Риццо",
+    "page_title_about": "Обо мне | Анджело Бруно Риццо",
+    "page_title_contacts": "Контакты | Анджело Бруно Риццо",
+    "video_not_supported": "Ваш браузер не поддерживает видео.",
     "hero_title": "Фотография, море и память",
     "hero_subtitle": "Фотография • Море • Путешествие • Тишина",
     "intro_title": "Анджело Бруно Риццо",
@@ -75,7 +96,10 @@ const translations = {
     "contacts_title": "Контакты",
     "contacts_subtitle": "Для информации, сотрудничества или фотографических запросов.",
     "location_label": "Местоположение:",
-    "footer_rights": "Все изображения и оригинальные тексты © Angelo Bruno Rizzo"
+    "footer_rights": "Все изображения и оригинальные тексты © Angelo Bruno Rizzo",
+    "w3c_note": "Создано с уважением к веб-стандартам W3C",
+    "email_label": "Email:",
+    "instagram_label": "Instagram:"
   },
   "el": {
     "site_name": "ANGELO BRUNO RIZZO",
@@ -83,6 +107,11 @@ const translations = {
     "nav_portfolio": "PORTFOLIO",
     "nav_about": "ΣΧΕΤΙΚΑ",
     "nav_contacts": "ΕΠΙΚΟΙΝΩΝΙΑ",
+    "page_title_home": "Angelo Bruno Rizzo | Φωτογραφία",
+    "page_title_portfolio": "Portfolio | Angelo Bruno Rizzo",
+    "page_title_about": "Σχετικά | Angelo Bruno Rizzo",
+    "page_title_contacts": "Επικοινωνία | Angelo Bruno Rizzo",
+    "video_not_supported": "Το πρόγραμμα περιήγησης δεν υποστηρίζει βίντεο.",
     "hero_title": "Φωτογραφία, Θάλασσα και Μνήμη",
     "hero_subtitle": "Φωτογραφία • Θάλασσα • Ταξίδι • Σιωπή",
     "intro_title": "Angelo Bruno Rizzo",
@@ -101,7 +130,10 @@ const translations = {
     "contacts_title": "Επικοινωνία",
     "contacts_subtitle": "Για πληροφορίες, συνεργασίες ή φωτογραφικά αιτήματα.",
     "location_label": "Τοποθεσία:",
-    "footer_rights": "Όλες οι εικόνες και τα πρωτότυπα κείμενα © Angelo Bruno Rizzo"
+    "footer_rights": "Όλες οι εικόνες και τα πρωτότυπα κείμενα © Angelo Bruno Rizzo",
+    "w3c_note": "Σχεδιασμένο με σεβασμό στα πρότυπα W3C",
+    "email_label": "Email:",
+    "instagram_label": "Instagram:"
   },
   "ar": {
     "site_name": "أنجيلو برونو ريتسو",
@@ -109,6 +141,11 @@ const translations = {
     "nav_portfolio": "الأعمال",
     "nav_about": "نبذة",
     "nav_contacts": "اتصال",
+    "page_title_home": "أنجيلو برونو ريتسو | التصوير",
+    "page_title_portfolio": "الأعمال | أنجيلو برونو ريتسو",
+    "page_title_about": "نبذة | أنجيلو برونو ريتسو",
+    "page_title_contacts": "اتصال | أنجيلو برونو ريتسو",
+    "video_not_supported": "متصفحك لا يدعم الفيديو.",
     "hero_title": "التصوير، البحر والذاكرة",
     "hero_subtitle": "تصوير • بحر • سفر • صمت",
     "intro_title": "أنجيلو برونو ريتسو",
@@ -127,7 +164,10 @@ const translations = {
     "contacts_title": "اتصال",
     "contacts_subtitle": "للمعلومات أو التعاون أو الطلبات الفوتوغرافية.",
     "location_label": "الموقع:",
-    "footer_rights": "جميع الصور والنصوص الأصلية © Angelo Bruno Rizzo"
+    "footer_rights": "جميع الصور والنصوص الأصلية © Angelo Bruno Rizzo",
+    "w3c_note": "مصمم باحترام معايير الويب W3C",
+    "email_label": "البريد الإلكتروني:",
+    "instagram_label": "إنستغرام:"
   },
   "ja": {
     "site_name": "アンジェロ・ブルーノ・リッツォ",
@@ -135,6 +175,11 @@ const translations = {
     "nav_portfolio": "ポートフォリオ",
     "nav_about": "プロフィール",
     "nav_contacts": "お問い合わせ",
+    "page_title_home": "アンジェロ・ブルーノ・リッツォ | 写真",
+    "page_title_portfolio": "ポートフォリオ | アンジェロ・ブルーノ・リッツォ",
+    "page_title_about": "プロフィール | アンジェロ・ブルーノ・リッツォ",
+    "page_title_contacts": "お問い合わせ | アンジェロ・ブルーノ・リッツォ",
+    "video_not_supported": "お使いのブラウザは動画をサポートしていません。",
     "hero_title": "写真、海、そして記憶",
     "hero_subtitle": "写真 • 海 • 旅 • 静寂",
     "intro_title": "アンジェロ・ブルーノ・リッツォ",
@@ -153,7 +198,10 @@ const translations = {
     "contacts_title": "お問い合わせ",
     "contacts_subtitle": "情報、コラボレーション、写真に関するご依頼はこちらから。",
     "location_label": "所在地:",
-    "footer_rights": "All Images and Original Text © Angelo Bruno Rizzo"
+    "footer_rights": "すべての画像と原文 © Angelo Bruno Rizzo",
+    "w3c_note": "W3C Web Standards に配慮して設計",
+    "email_label": "メール:",
+    "instagram_label": "Instagram:"
   },
   "zh": {
     "site_name": "安杰洛·布鲁诺·里佐",
@@ -161,6 +209,11 @@ const translations = {
     "nav_portfolio": "作品集",
     "nav_about": "关于",
     "nav_contacts": "联系",
+    "page_title_home": "安杰洛·布鲁诺·里佐 | 摄影",
+    "page_title_portfolio": "作品集 | 安杰洛·布鲁诺·里佐",
+    "page_title_about": "关于 | 安杰洛·布鲁诺·里佐",
+    "page_title_contacts": "联系 | 安杰洛·布鲁诺·里佐",
+    "video_not_supported": "您的浏览器不支持视频。",
     "hero_title": "摄影、海洋与记忆",
     "hero_subtitle": "摄影 • 海洋 • 旅行 • 静默",
     "intro_title": "安杰洛·布鲁诺·里佐",
@@ -179,27 +232,50 @@ const translations = {
     "contacts_title": "联系",
     "contacts_subtitle": "如需信息、合作或摄影相关请求，请联系我。",
     "location_label": "地点:",
-    "footer_rights": "所有图片和原创文字 © Angelo Bruno Rizzo"
+    "footer_rights": "所有图片和原创文字 © Angelo Bruno Rizzo",
+    "w3c_note": "遵循 W3C Web 标准设计",
+    "email_label": "电子邮件:",
+    "instagram_label": "Instagram:"
   }
 };
 
 function setLanguage(lang){
   const selected = translations[lang] || translations.it;
-  document.querySelectorAll("[data-i18n]").forEach(el=>{
-    const key = el.getAttribute("data-i18n");
-    if(selected[key]) el.textContent = selected[key];
+
+  document.querySelectorAll("[data-i18n]").forEach(element => {
+    const key = element.getAttribute("data-i18n");
+    if (selected[key]) {
+      element.textContent = selected[key];
+    }
   });
+
+  const titleElement = document.querySelector("[data-i18n-title]");
+  if (titleElement) {
+    const titleKey = titleElement.getAttribute("data-i18n-title");
+    if (selected[titleKey]) {
+      document.title = selected[titleKey];
+      titleElement.textContent = selected[titleKey];
+    }
+  }
+
   document.documentElement.lang = lang;
+  document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
   document.body.classList.toggle("rtl", lang === "ar");
-  document.querySelectorAll(".language-switcher button").forEach(btn=>{
-    btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
+
+  document.querySelectorAll(".language-switcher button").forEach(button => {
+    button.classList.toggle("active", button.getAttribute("data-lang") === lang);
   });
+
   localStorage.setItem("selectedLanguage", lang);
 }
 
-document.addEventListener("DOMContentLoaded", ()=>{
-  setLanguage(localStorage.getItem("selectedLanguage") || "it");
-  document.querySelectorAll(".language-switcher button").forEach(btn=>{
-    btn.addEventListener("click", ()=>setLanguage(btn.getAttribute("data-lang")));
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLanguage = localStorage.getItem("selectedLanguage") || "it";
+  setLanguage(savedLanguage);
+
+  document.querySelectorAll(".language-switcher button").forEach(button => {
+    button.addEventListener("click", () => {
+      setLanguage(button.getAttribute("data-lang"));
+    });
   });
 });

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contatti | Angelo Bruno Rizzo</title>
+  <title data-i18n-title="page_title_contacts">Contatti | Angelo Bruno Rizzo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,25 +15,29 @@
     <a href="about.html" data-i18n="nav_about">ABOUT</a>
     <a href="contatti.html" data-i18n="nav_contacts">CONTATTI</a>
   </nav>
-  <div class="language-switcher">
-    <button data-lang="it" class="active">IT</button>
-    <button data-lang="en">EN</button>
-    <button data-lang="ru">RU</button>
-    <button data-lang="el">EL</button>
-    <button data-lang="ar">AR</button>
-    <button data-lang="ja">JA</button>
-    <button data-lang="zh">ZH</button>
+  <div class="language-switcher" aria-label="Selettore lingua">
+    <button type="button" data-lang="it" title="Italiano" aria-label="Italiano"><span class="flag">🇮🇹</span></button>
+    <button type="button" data-lang="en" title="English" aria-label="English"><span class="flag">🇬🇧</span></button>
+    <button type="button" data-lang="ru" title="Русский" aria-label="Русский"><span class="flag">🇷🇺</span></button>
+    <button type="button" data-lang="el" title="Ελληνικά" aria-label="Ελληνικά"><span class="flag">🇬🇷</span></button>
+    <button type="button" data-lang="ar" title="العربية" aria-label="العربية"><span class="flag">🇸🇦</span></button>
+    <button type="button" data-lang="ja" title="日本語" aria-label="日本語"><span class="flag">🇯🇵</span></button>
+    <button type="button" data-lang="zh" title="中文" aria-label="中文"><span class="flag">🇨🇳</span></button>
   </div>
 </header>
 <main class="page contact-page">
   <h1 data-i18n="contacts_title">Contatti</h1>
   <p class="page-subtitle" data-i18n="contacts_subtitle">Per informazioni, collaborazioni o richieste fotografiche.</p>
   <div class="contact-box">
-    <p><strong>Email:</strong> inserisci-la-tua-email@email.com</p>
-    <p><strong>Instagram:</strong> @angelobrunorizzo</p>
+    <p><strong data-i18n="email_label">Email:</strong> inserisci-la-tua-email@email.com</p>
+    <p><strong data-i18n="instagram_label">Instagram:</strong> @angelobrunorizzo</p>
     <p><strong data-i18n="location_label">Località:</strong> Brindisi, Italia</p>
   </div>
-</main><footer><p>© 2026 Angelo Bruno Rizzo</p></footer>
+</main>
+<footer>
+  <p>© 2026 Angelo Bruno Rizzo</p>
+  <p class="w3c-note" data-i18n="w3c_note">Progettato nel rispetto degli standard web W3C</p>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

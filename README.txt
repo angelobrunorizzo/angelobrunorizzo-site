@@ -1,2 +1,13 @@
-Versione multilingua: IT, EN, RU, EL, AR, JA, ZH.
-Caricare video/home.mp4 e immagini nella cartella images.
+Versione con bandierine e traduzione completa.
+
+Lingue:
+Italiano, Inglese, Russo, Greco, Arabo, Giapponese, Cinese.
+
+Carica tutto su GitHub sostituendo i file precedenti.
+
+Video home:
+video/home.mp4
+
+Fotografie:
+images/foto1.jpg ... images/foto9.jpg
+images/about.jpg
